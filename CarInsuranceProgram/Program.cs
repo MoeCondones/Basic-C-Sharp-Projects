@@ -15,9 +15,18 @@ namespace CarInsuranceProgram
 
             Console.WriteLine("have you ever had a DUI violation (yes/no)");
             string dui = Console.ReadLine();
+            bool hasDUI = false;
+            if (dui == "yes")
+            {
+                hasDUI = true;
+            }
 
             Console.WriteLine("how many speeding tickets have you had? ");
             int SpeedingTickets = Convert.ToInt32(Console.ReadLine());
+
+            bool qualifies = age > 15 && !hasDUI && SpeedingTickets <= 3;
+            Console.WriteLine("qualifies for car insurance: " + qualifies);
+            Console.ReadLine();
 
         }
     }

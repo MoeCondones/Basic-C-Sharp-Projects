@@ -1,0 +1,7 @@
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\CarInsuranceProgram\bin\Debug\CarInsuranceProgram.exe.config
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\CarInsuranceProgram\bin\Debug\CarInsuranceProgram.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\CarInsuranceProgram\bin\Debug\CarInsuranceProgram.pdb
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\CarInsuranceProgram\obj\Debug\CarInsuranceProgram.csproj.AssemblyReference.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\CarInsuranceProgram\obj\Debug\CarInsuranceProgram.csproj.CoreCompileInputs.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\CarInsuranceProgram\obj\Debug\CarInsuranceProgram.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\CarInsuranceProgram\obj\Debug\CarInsuranceProgram.pdb
