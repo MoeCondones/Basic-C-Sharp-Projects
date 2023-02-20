@@ -1,0 +1,7 @@
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ShippingQuotesProgram\bin\Debug\ShippingQuotesProgram.exe.config
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ShippingQuotesProgram\bin\Debug\ShippingQuotesProgram.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ShippingQuotesProgram\bin\Debug\ShippingQuotesProgram.pdb
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ShippingQuotesProgram\obj\Debug\ShippingQuotesProgram.csproj.AssemblyReference.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ShippingQuotesProgram\obj\Debug\ShippingQuotesProgram.csproj.CoreCompileInputs.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ShippingQuotesProgram\obj\Debug\ShippingQuotesProgram.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ShippingQuotesProgram\obj\Debug\ShippingQuotesProgram.pdb
