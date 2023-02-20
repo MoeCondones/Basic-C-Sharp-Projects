@@ -13,7 +13,7 @@ namespace ShippingQuotesProgram
             Console.WriteLine("Welcome to PAckage Express. Please follow the instructions below");
             Console.WriteLine("enter package weight: ");
             int weight = Convert.ToInt32(Console.ReadLine());
-            
+
             if (weight > 50)
             {
                 Console.WriteLine("Package too heavy to be shipped via Package Express. Have a good day.");
@@ -41,8 +41,7 @@ namespace ShippingQuotesProgram
                 }
                 Console.ReadLine();
             }
-            
-            
+
         }
     }
 }

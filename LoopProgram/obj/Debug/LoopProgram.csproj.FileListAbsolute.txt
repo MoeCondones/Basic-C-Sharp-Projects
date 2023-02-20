@@ -1,0 +1,7 @@
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\LoopProgram\bin\Debug\LoopProgram.exe.config
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\LoopProgram\bin\Debug\LoopProgram.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\LoopProgram\bin\Debug\LoopProgram.pdb
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\LoopProgram\obj\Debug\LoopProgram.csproj.AssemblyReference.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\LoopProgram\obj\Debug\LoopProgram.csproj.CoreCompileInputs.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\LoopProgram\obj\Debug\LoopProgram.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\LoopProgram\obj\Debug\LoopProgram.pdb
