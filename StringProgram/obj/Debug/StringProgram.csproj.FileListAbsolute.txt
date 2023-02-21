@@ -1,0 +1,7 @@
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\StringProgram\bin\Debug\StringProgram.exe.config
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\StringProgram\bin\Debug\StringProgram.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\StringProgram\bin\Debug\StringProgram.pdb
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\StringProgram\obj\Debug\StringProgram.csproj.AssemblyReference.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\StringProgram\obj\Debug\StringProgram.csproj.CoreCompileInputs.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\StringProgram\obj\Debug\StringProgram.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\StringProgram\obj\Debug\StringProgram.pdb
