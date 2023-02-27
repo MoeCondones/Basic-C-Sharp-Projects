@@ -1,12 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Basic_C#_Programs",
-    "\\Basic_C#_Programs\\myConsoleProject.cs",
-    "\\Basic_C#_Programs\\myConsoleProject.cs\\myConsoleProject.cs",
     "\\IncomeComparisonProgram",
-    "\\MathOperations"
+    "\\StringProgram"
   ],
-  "SelectedNode": "\\Basic_C#_Programs\\myConsoleProject.cs\\myConsoleProject.cs\\Program.cs",
+  "SelectedNode": "\\Basic_C#_Programs",
   "PreviewInSolutionExplorer": false
 }

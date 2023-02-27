@@ -1,0 +1,7 @@
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ArrayProgram\bin\Debug\ArrayProgram.exe.config
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ArrayProgram\bin\Debug\ArrayProgram.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ArrayProgram\bin\Debug\ArrayProgram.pdb
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ArrayProgram\obj\Debug\ArrayProgram.csproj.AssemblyReference.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ArrayProgram\obj\Debug\ArrayProgram.csproj.CoreCompileInputs.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ArrayProgram\obj\Debug\ArrayProgram.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ArrayProgram\obj\Debug\ArrayProgram.pdb

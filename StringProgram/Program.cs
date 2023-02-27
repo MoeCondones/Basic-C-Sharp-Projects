@@ -8,13 +8,13 @@ namespace StringProgram
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string name = "Mohamed";
             int age = 21;
             string city = "glasgow";
 
-            string concat = "hey my name is " + name + " and im " + age + ", i live in " + city ;
+            string concat = "hey my name is " + name + " and im " + age + ", i live in " + city;
             string upper = concat.ToUpper();
             Console.WriteLine(upper);
             Console.ReadLine();
