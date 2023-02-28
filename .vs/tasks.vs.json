@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-6PartProgram",
+      "appliesTo": "6PartProgram/",
+      "type": "launch"
+    }
+  ]
+}

@@ -46,7 +46,7 @@ namespace ArrayProgram
             }
 
             Console.WriteLine("you got the string: " + stringlist[result]);
-            Console.ReadLine();
+            Console.ReadLine(); 
         }
     }
 }

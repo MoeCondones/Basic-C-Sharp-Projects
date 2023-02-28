@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\IncomeComparisonProgram",
-    "\\StringProgram"
+    "\\IterationProgram"
   ],
-  "SelectedNode": "\\Basic_C#_Programs",
+  "SelectedNode": "\\ArrayProgram",
   "PreviewInSolutionExplorer": false
 }
