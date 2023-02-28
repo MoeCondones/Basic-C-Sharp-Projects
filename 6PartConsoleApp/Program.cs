@@ -30,6 +30,30 @@ namespace _6PartConsoleApp
 
             //PART 2
 
+            //int i = 0;
+            //while (true)
+            //{
+            //    Console.WriteLine(i);
+            //    i++;
+            //    if (i >= 1000)
+            //    {
+            //        break;
+            //    }
+            //}
+
+            //PART 3
+
+            //for (int i = 0; i < 500; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //for (int x = 0; x <= 500; x++)
+            //{
+            //    Console.WriteLine(x);
+            //}
+
+            //PART 4
 
         }
     }
