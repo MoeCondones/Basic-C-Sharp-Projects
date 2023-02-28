@@ -55,6 +55,35 @@ namespace _6PartConsoleApp
 
             //PART 4
 
+            List<string> strList = new List<string>();
+            strList.Add("adam");
+            strList.Add("homer");
+            strList.Add("eve");
+
+            bool found = false;
+            while (!found)
+            {
+                Console.WriteLine("Enter text to search for in the list:");
+                string search = Console.ReadLine();
+
+                int index = 0;
+                foreach (string name in strList)
+                {
+                    if (search == name)
+                    {
+                        Console.WriteLine("Your string matches the string at index: " + index);
+                        found = true;
+                        break;
+                    }
+
+                    else
+                    {
+                        Console.WriteLine("the inpu doesnt match the string");
+                    }
+                    index++;
+                }
+            }
+            Console.ReadLine();
         }
     }
 }
