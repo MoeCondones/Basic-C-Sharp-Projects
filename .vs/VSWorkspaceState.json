@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\IterationProgram"
+    "\\6PartConsoleApp",
+    "\\ArrayProgram"
   ],
-  "SelectedNode": "\\ArrayProgram",
+  "SelectedNode": "\\6PartConsoleApp\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
