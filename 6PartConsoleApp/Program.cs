@@ -109,10 +109,12 @@ namespace _6PartConsoleApp
                 if (!found)
                 {
                     Console.WriteLine("Your input was not found in the list.");
+                    Console.WriteLine("Enter text to search for in the list: ");
+                    search = Console.ReadLine();
+                    
                 }
-
-                Console.ReadLine();
             }
+            Console.ReadLine();
         }
     }
 }
