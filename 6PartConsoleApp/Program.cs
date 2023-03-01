@@ -83,6 +83,36 @@ namespace _6PartConsoleApp
             //    }
             //}
             //Console.ReadLine();
+
+            //PART 5
+
+            List<string> SameWord = new List<string>();
+            SameWord.Add("hi");
+            SameWord.Add("yo");
+            SameWord.Add("bye");
+            SameWord.Add("hi");
+            SameWord.Add("new");
+
+            Console.WriteLine("Enter text to search for in the list:");
+            string search = Console.ReadLine();
+            bool found = false;
+            while (!found)
+            {
+                for (int i = 0; i < SameWord.Count; i++)
+                {
+                    if (SameWord[i] == search)
+                    {
+                        Console.WriteLine("Your string matches the string at index: " + i);
+                        found = true;
+                    }
+                }
+                if (!found)
+                {
+                    Console.WriteLine("Your input was not found in the list.");
+                }
+
+                Console.ReadLine();
+            }
         }
     }
 }
