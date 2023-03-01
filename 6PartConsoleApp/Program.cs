@@ -106,12 +106,12 @@ namespace _6PartConsoleApp
                         found = true;
                     }
                 }
+                if (!found)
+                {
+                    Console.WriteLine("your input was not found in the list");
+                    search = Console.ReadLine();
+                }
             }
-            if (!found)
-            {
-                Console.WriteLine("Your input was not found in the list.");
-            }
-
             Console.ReadLine();
 
             //PART 6
