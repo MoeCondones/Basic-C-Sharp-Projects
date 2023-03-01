@@ -1,7 +1,7 @@
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\6PartConsoleApp\obj\Debug\6PartConsoleApp.csproj.AssemblyReference.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\6PartConsoleApp\obj\Debug\6PartConsoleApp.csproj.CoreCompileInputs.cache
 C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\6PartConsoleApp\bin\Debug\6PartConsoleApp.exe.config
 C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\6PartConsoleApp\bin\Debug\6PartConsoleApp.exe
 C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\6PartConsoleApp\bin\Debug\6PartConsoleApp.pdb
-C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\6PartConsoleApp\obj\Debug\6PartConsoleApp.csproj.AssemblyReference.cache
-C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\6PartConsoleApp\obj\Debug\6PartConsoleApp.csproj.CoreCompileInputs.cache
 C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\6PartConsoleApp\obj\Debug\6PartConsoleApp.exe
 C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\6PartConsoleApp\obj\Debug\6PartConsoleApp.pdb
