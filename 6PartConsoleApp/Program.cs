@@ -13,76 +13,76 @@ namespace _6PartConsoleApp
             //PART 1
 
 
-            //string[] strings = { "adam", "jesse", "meave" };
-            //Console.Write("Enter some text: ");
-            //string input = Console.ReadLine();
+            string[] strings = { "adam", "jesse", "meave" };
+            Console.Write("Enter some text: ");
+            string input = Console.ReadLine();
 
-            //for (int i = 0; i < strings.Length; i++)
-            //{
-            //    strings[i] += " " + input;
-            //}
+            for (int j = 0; j < strings.Length; j++)
+            {
+                strings[j] += " " + input;
+            }
 
-            //foreach (string x in strings)
-            //{
-            //    Console.WriteLine(x);
-            //}
-            //Console.ReadLine();
+            foreach (string x in strings)
+            {
+                Console.WriteLine(x);
+            }
+            Console.ReadLine();
 
             //PART 2
 
-            //int i = 0;
-            //while (true)
-            //{
-            //    Console.WriteLine(i);
-            //    i++;
-            //    if (i >= 1000)
-            //    {
-            //        break;
-            //    }
-            //}
+            int i = 0;
+            while (true)
+            {
+                Console.WriteLine(i);
+                i++;
+                if (i >= 1000)
+                {
+                    break;
+                }
+            }
 
             //PART 3
 
-            //for (int i = 0; i < 500; i++)
-            //{
-            //    Console.WriteLine(i);
-            //}
+            for (int u = 0; u < 500;u++)
+            {
+                Console.WriteLine(u);
+            }
 
-            //for (int x = 0; x <= 500; x++)
-            //{
-            //    Console.WriteLine(x);
-            //}
+            for (int x = 0; x <= 500; x++)
+            {
+                Console.WriteLine(x);
+            }
 
             //PART 4
 
-            //List<string> strList = new List<string>();
-            //strList.Add("adam");
-            //strList.Add("homer");
-            //strList.Add("eve");
+            List<string> strList = new List<string>();
+            strList.Add("adam");
+            strList.Add("homer");
+            strList.Add("eve");
 
-            //bool found = false;
-            //while (!found)
-            //{
-            //    Console.WriteLine("Enter text to search for in the list:");
-            //    string search = Console.ReadLine();
+            bool found = false;
+            while (!found)
+            {
+                Console.WriteLine("Enter text to search for in the list:");
+                string search1 = Console.ReadLine();
 
-            //    int index = 0;
-            //    foreach (string name in strList)
-            //    {
-            //        if (search == name)
-            //        {
-            //            Console.WriteLine("Your string matches the string at index: " + index);
-            //            found = true;
-            //            break;
-            //        }
-            //        index++;
-            //    }
-            //    if (!found)
-            //    {
-            //        Console.WriteLine("your input is not found in the list");
-            //    }
-            //}
-            //Console.ReadLine();
+                int index = 0;
+                foreach (string name in strList)
+                {
+                    if (search1 == name)
+                    {
+                        Console.WriteLine("Your string matches the string at index: " + index);
+                        found = true;
+                        break;
+                    }
+                    index++;
+                }
+                if (!found)
+                {
+                    Console.WriteLine("your input is not found in the list");
+                }
+            }
+            Console.ReadLine();
 
             //PART 5
 
@@ -95,18 +95,18 @@ namespace _6PartConsoleApp
 
             Console.WriteLine("Enter text to search for in the list:");
             string search = Console.ReadLine();
-            bool found = false;
-            while (!found)
+            bool found1 = false;
+            while (!found1)
             {
-                for (int i = 0; i < SameWord.Count; i++)
+                for (int o = 0; o < SameWord.Count; o++)
                 {
-                    if (SameWord[i] == search)
+                    if (SameWord[o] == search)
                     {
                         Console.WriteLine("Your string matches the string at index: " + i);
-                        found = true;
+                        found1 = true;
                     }
                 }
-                if (!found)
+                if (!found1)
                 {
                     Console.WriteLine("your input was not found in the list");
                     search = Console.ReadLine();
@@ -116,7 +116,26 @@ namespace _6PartConsoleApp
 
             //PART 6
 
-            
+            List<string> items = new List<string>();
+            items.Add("box");
+            items.Add("shovle");
+            items.Add("saw");
+            items.Add("box");
+            List<string> duplicate = new List<string>();
+
+            foreach (string s in items)
+            {
+                if (duplicate.Contains(s))
+                {
+                    Console.WriteLine(s+ " is duplicated here");
+                }
+                else
+                {
+                    duplicate.Add(s);
+                    Console.WriteLine(s + " is not duplicated here");
+                }
+            }
+            Console.ReadLine();
         }
     }
 }
