@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\MathMethods"
+    "\\BlackJack",
+    "\\MathOperations"
   ],
-  "SelectedNode": "\\MathMethods",
+  "SelectedNode": "\\BlackJack\\Deck.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -18,9 +18,9 @@ namespace BlackJack
                 "Eight", "Nine", "Ten", "Jack", "Queen", "Kind", "Ace"
             };
 
-            foreach (string suit in Suits)
+            foreach (string face in Faces)
             {
-                foreach (string face in Faces)
+                foreach (string suit in Suits)
                 {
                     Card card = new Card();
                     card.Face = face;
@@ -30,6 +30,5 @@ namespace BlackJack
             }
         }
         public List<Card> Cards { get; set; }
-
     }
 }
