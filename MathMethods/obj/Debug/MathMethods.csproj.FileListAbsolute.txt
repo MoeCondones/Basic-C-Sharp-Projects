@@ -1,0 +1,7 @@
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\MathMethods\bin\Debug\MathMethods.exe.config
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\MathMethods\bin\Debug\MathMethods.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\MathMethods\bin\Debug\MathMethods.pdb
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\MathMethods\obj\Debug\MathMethods.csproj.AssemblyReference.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\MathMethods\obj\Debug\MathMethods.csproj.CoreCompileInputs.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\MathMethods\obj\Debug\MathMethods.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\MathMethods\obj\Debug\MathMethods.pdb
