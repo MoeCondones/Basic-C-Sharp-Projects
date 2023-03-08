@@ -1,0 +1,7 @@
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ClassAndMethod\bin\Debug\ClassAndMethod.exe.config
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ClassAndMethod\bin\Debug\ClassAndMethod.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ClassAndMethod\bin\Debug\ClassAndMethod.pdb
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ClassAndMethod\obj\Debug\ClassAndMethod.csproj.AssemblyReference.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ClassAndMethod\obj\Debug\ClassAndMethod.csproj.CoreCompileInputs.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ClassAndMethod\obj\Debug\ClassAndMethod.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ClassAndMethod\obj\Debug\ClassAndMethod.pdb
