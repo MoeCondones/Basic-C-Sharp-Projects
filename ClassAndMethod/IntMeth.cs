@@ -18,10 +18,10 @@ namespace ClassAndMethod
             decimal result = num + 4.32m;
             return result;
         }
-        public string Operation (string str)
+        public int Operation (string str)
         {
-            int str = Convert.ToInt32();
-            int result = str / 2;
+            int numb = Convert.ToInt32(str);
+            int result = numb / 2;
             return result;
         }
     }
