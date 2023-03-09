@@ -17,15 +17,19 @@ namespace ClassAndMethod
             IntMeth mathOpe = new IntMeth();
             int result = mathOpe.Operation(input);
 
-            Console.WriteLine("Adding 5 to " + input + " gives " + result);
-            Console.ReadLine();
+            Console.WriteLine("Multiplying " + input + " By 5 Gives " + result);
 
-            Console.WriteLine("Enter a number: ");
+            Console.Write("Enter a new number: ");
             decimal input1 = decimal.Parse(Console.ReadLine());
 
-            int decResult = IntMeth.Operation(input1);
-            Console.WriteLine("the result of the decimal operation:" +decResult);
-            
+            decimal result1 = mathOpe.Operation(input1);
+            Console.WriteLine("Adding 4.32 to "+input1+ " gives " +result1);
+
+            Console.Write("Enter a new number that will be divided: ");
+            int input2 = int.Parse(Console.ReadLine());
+
+            int result2 = mathOpe.Operation(input2);
+            Console.WriteLine("Dividing " +input2+ " by 2 gives "+result2);
             Console.ReadLine();
         }
     }
