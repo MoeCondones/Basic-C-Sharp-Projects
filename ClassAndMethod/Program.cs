@@ -27,9 +27,8 @@ namespace ClassAndMethod
 
             Console.Write("Enter a new number that will be divided: ");
             string input2 = Console.ReadLine();
-            int result2 = Convert.ToInt32(input2);
 
-            string result2 = mathOpe.Operation(input2);
+            int result2 = mathOpe.Operation(input2);
             Console.WriteLine("Dividing " +input2+ " by 2 gives "+result2);
             Console.ReadLine();
         }
