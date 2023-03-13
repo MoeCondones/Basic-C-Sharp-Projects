@@ -8,12 +8,12 @@ namespace ClassAndMethod
 {
     class OptionalMeth
     {
-        public int OpMeth (int num, int number = 0)
+        public int OpMeth (int num1, int num2 = 0)
         {
-            int result = num * 10;
-            if (number != 0)
+            int result = num1 * 10;
+            if (num2 != 0)
             {
-                result = number * 2;
+                result = num2 * 2;
             }
             return result;
         }
