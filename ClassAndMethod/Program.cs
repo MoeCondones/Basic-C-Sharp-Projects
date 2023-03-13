@@ -38,7 +38,7 @@ namespace ClassAndMethod
 
                 Console.Write("Enter another number (OPTIONAL) press enter to skip");
                 int inp2 = Convert.ToInt32(Console.ReadLine());
-                int res = newOpe.OpMeth(inp1, inp2);
+                int res = newOpe.OpMeth(inp1);
                 Console.WriteLine(inp1 + " X " + inp2 + " = " + res);
             }
             catch
