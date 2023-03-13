@@ -34,7 +34,6 @@ namespace ClassAndMethod
             Console.Write("Enter a number: ");
             int inp1 = Convert.ToInt32(Console.ReadLine());
             Console.Write("Enter another number (OPTIONAL) press enter to skip: ");
-
             try
             {
                 int inp2 = Convert.ToInt32(Console.ReadLine());
@@ -43,7 +42,7 @@ namespace ClassAndMethod
             }
             catch{
                 int res = newOpe.OpMeth(inp1);
-                Console.WriteLine(inp1+ " X 10 gives" +res);
+                Console.WriteLine(inp1+ " X 10 gives: " +res);
             }
 
 
