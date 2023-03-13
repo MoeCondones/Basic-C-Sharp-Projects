@@ -10,7 +10,6 @@ namespace ClassAndMethod
     {
         static void Main(string[] args)
         {
-
             Console.Write("Enter a number: ");
             int input = int.Parse(Console.ReadLine());
 
@@ -23,13 +22,21 @@ namespace ClassAndMethod
             decimal input1 = decimal.Parse(Console.ReadLine());
 
             decimal result1 = mathOpe.Operation(input1);
-            Console.WriteLine("Adding 4.32 to "+input1+ " gives " +result1);
+            Console.WriteLine("Adding 4.32 to " + input1 + " gives " + result1);
 
             Console.Write("Enter a new number that will be divided: ");
             string input2 = Console.ReadLine();
 
             int result2 = mathOpe.Operation(input2);
-            Console.WriteLine("Dividing " +input2+ " by 2 gives "+result2);
+            Console.WriteLine("Dividing " + input2 + " by 2 gives " + result2);
+
+            OptionalMeth newOpe = new OptionalMeth();
+            Console.Write("Enter a number: ");
+            int inp1 = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter a new number (OPTIONAL): ");
+
+
             Console.ReadLine();
         }
     }

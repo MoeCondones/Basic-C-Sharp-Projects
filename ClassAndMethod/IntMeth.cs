@@ -13,12 +13,12 @@ namespace ClassAndMethod
             int result = number * 5;
             return result;
         }
-        public decimal Operation (decimal num)
+        public decimal Operation(decimal num)
         {
             decimal result = num + 4.32m;
             return result;
         }
-        public int Operation (string str)
+        public int Operation(string str)
         {
             int numb = Convert.ToInt32(str);
             int result = numb / 2;

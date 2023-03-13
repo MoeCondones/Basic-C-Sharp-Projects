@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{768C54C9-67B9-4311-92EC-9D5C5B336D9E}</ProjectGuid>
+    <ProjectGuid>{D9C15E2A-CF7B-4E5A-A7B4-ACF4ABB19F73}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>ClassAndMethod</RootNamespace>
     <AssemblyName>ClassAndMethod</AssemblyName>
@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="intMeth.cs" />
+    <Compile Include="IntMeth.cs" />
+    <Compile Include="Meth2.cs" />
+    <Compile Include="OptionalMeth.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
