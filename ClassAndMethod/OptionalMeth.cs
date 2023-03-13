@@ -13,7 +13,7 @@ namespace ClassAndMethod
             int result = num * 10;
             if (number != 0)
             {
-                int res = number * 2;
+                int result = number * 2;
             }
             return result;
         }
