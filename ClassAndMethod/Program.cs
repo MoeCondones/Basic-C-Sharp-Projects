@@ -30,6 +30,25 @@ namespace ClassAndMethod
             int result2 = mathOpe.Operation(input2);
             Console.WriteLine("Dividing " + input2 + " by 2 gives " + result2);
 
+            OptionalMeth newOpe = new OptionalMeth();
+            try
+            {
+                Console.Write("Enter a number: ");
+                int inp1 = Convert.ToInt32(Console.ReadLine());
+
+                Console.Write("Enter another number (OPTIONAL) press enter to skip");
+                int inp2 = Convert.ToInt32(Console.ReadLine());
+                int res = newOpe.OpMeth(inp1, inp2);
+                Console.WriteLine(inp1 + " X " + inp2 + " = " + res);
+            }
+            catch
+            {
+                int inp2 = 0;
+                int res = newOpe.OpMeth(inp2);
+                Console.WriteLine(input1 + " X 10 gives " + res);
+            }
+
+
             Console.ReadLine();
         }
     }
