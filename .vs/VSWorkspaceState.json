@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ClassAndMethod"
+    "\\ClassAndMethod",
+    "\\ExceptionProgram"
   ],
   "SelectedNode": "\\ClassAndMethod\\Program.cs",
   "PreviewInSolutionExplorer": false

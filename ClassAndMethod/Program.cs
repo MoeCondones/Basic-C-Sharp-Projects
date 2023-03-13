@@ -32,12 +32,9 @@ namespace ClassAndMethod
 
             OptionalMeth newOpe = new OptionalMeth();
             Console.Write("Enter a number: ");
-            int inp1 = int.Parse(Console.ReadLine());
-
-            Console.Write("Enter a new number (OPTIONAL): ");
-            int inp2 = int.Parse(Console.ReadLine(), out inp2);
-            int res = newOpe.OpMeth(inp1, inp2);
-            Console.Write("result: " +res);
+            int inp1 = Convert.ToInt32(Console.ReadLine());
+            int result = newOpe.OpMeth(inp1);
+            Console.WriteLine("result "+result);
 
             Console.ReadLine();
         }
