@@ -1,0 +1,7 @@
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\VoidParameters\bin\Debug\VoidParameters.exe.config
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\VoidParameters\bin\Debug\VoidParameters.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\VoidParameters\bin\Debug\VoidParameters.pdb
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\VoidParameters\obj\Debug\VoidParameters.csproj.AssemblyReference.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\VoidParameters\obj\Debug\VoidParameters.csproj.CoreCompileInputs.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\VoidParameters\obj\Debug\VoidParameters.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\VoidParameters\obj\Debug\VoidParameters.pdb

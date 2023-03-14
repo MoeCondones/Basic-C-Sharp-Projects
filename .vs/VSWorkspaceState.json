@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\ClassAndMethod",
-    "\\ExceptionProgram"
+    "\\ExceptionProgram",
+    "\\OptionalParameters"
   ],
-  "SelectedNode": "\\ClassAndMethod\\Program.cs",
+  "SelectedNode": "\\OptionalParameters\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
