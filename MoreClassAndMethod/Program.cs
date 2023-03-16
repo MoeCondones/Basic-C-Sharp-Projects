@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace MoreClassAndMethods
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             VoidClass answer = new VoidClass();
             Console.Write("Enter a number that will be divided by 2: ");
