@@ -1,0 +1,7 @@
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\InheritanceProgram\bin\Debug\InheritanceProgram.exe.config
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\InheritanceProgram\bin\Debug\InheritanceProgram.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\InheritanceProgram\bin\Debug\InheritanceProgram.pdb
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\InheritanceProgram\obj\Debug\InheritanceProgram.csproj.AssemblyReference.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\InheritanceProgram\obj\Debug\InheritanceProgram.csproj.CoreCompileInputs.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\InheritanceProgram\obj\Debug\InheritanceProgram.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\InheritanceProgram\obj\Debug\InheritanceProgram.pdb
