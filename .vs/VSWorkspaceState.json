@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\BlackJack",
     "\\ClassAndMethod",
-    "\\ExceptionProgram",
-    "\\OptionalParameters"
+    "\\MoreClassAndMethods"
   ],
-  "SelectedNode": "\\OptionalParameters\\Program.cs",
+  "SelectedNode": "\\MoreClassAndMethods\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

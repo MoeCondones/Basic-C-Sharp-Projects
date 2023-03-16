@@ -1,0 +1,7 @@
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\MoreClassAndMethod\obj\Debug\MoreClassAndMethod.csproj.AssemblyReference.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\MoreClassAndMethod\obj\Debug\MoreClassAndMethod.csproj.CoreCompileInputs.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\MoreClassAndMethod\bin\Debug\MoreClassAndMethod.exe.config
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\MoreClassAndMethod\bin\Debug\MoreClassAndMethod.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\MoreClassAndMethod\bin\Debug\MoreClassAndMethod.pdb
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\MoreClassAndMethod\obj\Debug\MoreClassAndMethod.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\MoreClassAndMethod\obj\Debug\MoreClassAndMethod.pdb

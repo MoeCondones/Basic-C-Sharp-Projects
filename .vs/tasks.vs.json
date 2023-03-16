@@ -5,6 +5,11 @@
       "taskLabel": "task-6PartProgram",
       "appliesTo": "6PartProgram/",
       "type": "launch"
+    },
+    {
+      "taskLabel": "task-Card",
+      "appliesTo": "BlackJack/Card.cs",
+      "type": "launch"
     }
   ]
 }

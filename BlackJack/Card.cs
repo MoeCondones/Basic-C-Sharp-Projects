@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace BlackJack
 {
     public class Card
-    {      
+    {
         public Card()
         {
             Suit = "Spades";
@@ -15,6 +15,5 @@ namespace BlackJack
         }
         public string Suit { get; set; }
         public string Face { get; set; }
-        
     }
 }

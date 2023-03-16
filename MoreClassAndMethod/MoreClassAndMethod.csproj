@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F372F0DF-8F19-4C6F-9E7A-4ECBB414063E}</ProjectGuid>
+    <ProjectGuid>{A58B5D66-DAC4-4602-82BC-B16B1C846C2D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BlackJack</RootNamespace>
-    <AssemblyName>BlackJack</AssemblyName>
+    <RootNamespace>MoreClassAndMethod</RootNamespace>
+    <AssemblyName>MoreClassAndMethod</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Card.cs" />
-    <Compile Include="Deck.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VoidMeth.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
