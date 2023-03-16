@@ -14,14 +14,18 @@ namespace MoreClassAndMethods
             Console.WriteLine("the result is " + result);
         }
 
-        public void  OutputMeth(int num, out int number)
+        public void OutputMeth(int num, out int number)
         {
             number = num * 2;
         }
-        public static void OutputMeth(string str, out string result)
-        {
-            result = "Hello " + str + "!";
-            Console.WriteLine(result);
-        }
+        
+        
     }
+    public static class VoidString
+        {
+            public static void OutputMeth(string str)
+                {
+                    Console.WriteLine(str);
+                }
+        }
 }

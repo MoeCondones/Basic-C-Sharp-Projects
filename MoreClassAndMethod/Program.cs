@@ -19,8 +19,7 @@ namespace MoreClassAndMethods
             answer.OutputMeth(10, out output);
             Console.WriteLine("the result of the operation is: " + output);
 
-            string result;
-            answer.OutputMeth("There", out result);
+            VoidString.OutputMeth("Hello there!");
             Console.ReadLine();
         }
     }
