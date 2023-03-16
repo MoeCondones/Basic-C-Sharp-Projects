@@ -8,7 +8,7 @@ namespace MoreClassAndMethods
 {
     public class VoidClass
     {
-        public static void voidnum(int num)
+        public void voidnum(int num)
         {
             int result = num / 2;
             Console.WriteLine("the result is " + result);
@@ -18,7 +18,7 @@ namespace MoreClassAndMethods
         {
             number = num * 2;
         }
-        public void OutputMeth(string str, out string result)
+        public static void OutputMeth(string str, out string result)
         {
             result = "Hello " + str + "!";
             Console.WriteLine(result);
