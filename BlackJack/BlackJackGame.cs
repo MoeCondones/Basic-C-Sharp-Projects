@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlackJack
 {
-    public class BlackJackGame : Game
+    public class BlackJackGame : Game, IWalkAway
     {
         public override void Play()
         {
@@ -16,6 +16,10 @@ namespace BlackJack
         {
             Console.WriteLine("BlackJack PLayers: ");
             base.ListPlayer();
+        }
+        public void WalkAway(Player player)
+        {
+            throw new NotImplementedException();
         }
     }
 }

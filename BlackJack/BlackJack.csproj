@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{895A4C24-25DF-4AEE-A992-325967D7EC90}</ProjectGuid>
+    <ProjectGuid>{59E6E83F-1176-45C6-A36F-D8F7FF1473B5}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>BlackJack</RootNamespace>
     <AssemblyName>BlackJack</AssemblyName>
@@ -48,6 +48,7 @@
     <Compile Include="Dealer.cs" />
     <Compile Include="Deck.cs" />
     <Compile Include="Game.cs" />
+    <Compile Include="IWalkAway.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

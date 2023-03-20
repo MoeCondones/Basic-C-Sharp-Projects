@@ -14,6 +14,9 @@ namespace AbstractProgram
             emp.firstName = "Sample";
             emp.lasName = "Studnet";
             emp.sayName();
+
+            IQuittable employee = new Employee();
+            employee.Quit();
             Console.ReadLine();
         }
     }
