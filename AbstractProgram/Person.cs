@@ -10,6 +10,7 @@ namespace AbstractProgram
     {
         public string firstName { get; set; }
         public string lasName { get; set; }
+        public int employeeID { get; set; }
 
         public abstract void sayName();
     }
