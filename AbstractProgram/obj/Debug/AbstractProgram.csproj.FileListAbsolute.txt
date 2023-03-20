@@ -1,0 +1,7 @@
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\AbstractProgram\bin\Debug\AbstractProgram.exe.config
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\AbstractProgram\bin\Debug\AbstractProgram.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\AbstractProgram\bin\Debug\AbstractProgram.pdb
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\AbstractProgram\obj\Debug\AbstractProgram.csproj.AssemblyReference.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\AbstractProgram\obj\Debug\AbstractProgram.csproj.CoreCompileInputs.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\AbstractProgram\obj\Debug\AbstractProgram.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\AbstractProgram\obj\Debug\AbstractProgram.pdb

@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\BlackJack",
-    "\\ClassAndMethod",
-    "\\MoreClassAndMethods"
+    "\\InheritanceProgram"
   ],
-  "SelectedNode": "\\MoreClassAndMethods\\Program.cs",
+  "SelectedNode": "\\InheritanceProgram\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
