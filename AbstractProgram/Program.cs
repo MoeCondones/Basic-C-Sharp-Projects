@@ -10,20 +10,22 @@ namespace AbstractProgram
     {
         static void Main(string[] args)
         {
-            Employee emp = new Employee();
+            Employee<string> emp = new Employee<string>();
             emp.firstName = "Sample";
             emp.lasName = "Studnet";
             emp.sayName();
 
-            IQuittable employee = new Employee();
+            IQuittable employee = new Employee<int>();
             employee.Quit();
 
-            Employee emp1 = new Employee();
-            emp1.id = 1;
-            Employee emp2 = new Employee();
-            emp2.id = 2;
+            Employee<int> emp1 = new Employee<int>();
+            emp1.Id = 1;
+            Employee<int> emp2 = new Employee<int>();
+            emp2.Id = 2;
 
             Console.WriteLine(emp1 == emp2);
+
+
             Console.ReadLine();
         }
     }

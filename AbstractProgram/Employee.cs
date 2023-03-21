@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace AbstractProgram
 {
-    public class Employee : Person, IQuittable
+    public class Employee<T> : Person, IQuittable
     {
-        public int id { get; set; }
-        public string name { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public List<T> Things { get; set; }
         public override void sayName()
         {
             Console.WriteLine("My name is " + firstName + " " + lasName);
@@ -18,13 +19,21 @@ namespace AbstractProgram
         {
             Console.WriteLine($" {firstName} {lasName} is quitting the job");
         }
-        public static bool operator ==(Employee emp, Employee emp1)
+        public void ListThings()
         {
-            return emp.id == emp1.id; 
+            Console.WriteLine("My info is: ");
+            foreach (T thing in Things)
+            {
+                Console.WriteLine(thing);
+            }
         }
-        public static bool operator !=(Employee emp, Employee emp1)
-        {
-            return !(emp == emp1);
-        }
+        //public static bool operator ==(Employee emp, Employee emp1)
+        //{
+        //    return emp.id == emp1.id; 
+        //}
+        //public static bool operator !=(Employee emp, Employee emp1)
+        //{
+        //    return !(emp == emp1);
+        //}
     }
 }

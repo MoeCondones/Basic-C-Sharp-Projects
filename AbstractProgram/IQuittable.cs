@@ -11,3 +11,4 @@ namespace AbstractProgram
         void Quit();
     }
 }
+
