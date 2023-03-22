@@ -1,0 +1,7 @@
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\EnumProgram\bin\Debug\EnumProgram.exe.config
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\EnumProgram\bin\Debug\EnumProgram.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\EnumProgram\bin\Debug\EnumProgram.pdb
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\EnumProgram\obj\Debug\EnumProgram.csproj.AssemblyReference.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\EnumProgram\obj\Debug\EnumProgram.csproj.CoreCompileInputs.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\EnumProgram\obj\Debug\EnumProgram.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\EnumProgram\obj\Debug\EnumProgram.pdb

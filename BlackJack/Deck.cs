@@ -11,20 +11,14 @@ namespace BlackJack
         public Deck()
         {
             Cards = new List<Card>();
-            List<string> Suits = new List<string>() { "Diamonds", "Spades", "Hearts", "Clubs" };
-            List<string> Faces = new List<string>()
-            {
-                "Two", "Three", "Four", "Five", "Six", "Seven",
-                "Eight", "Nine", "Ten", "Jack", "Queen", "Kind", "Ace"
-            };
 
-            foreach (string face in Faces)
+            for (int i = 0; i < 13; i++)
             {
-                foreach (string suit in Suits)
+                for (int j = 0; j < 4; j++)
                 {
                     Card card = new Card();
-                    card.Face = face;
-                    card.Suit = suit;
+                    card.Face = (Face)i;
+                    card.Suit = (Suit)j;
                     Cards.Add(card);
                 }
             }
