@@ -13,12 +13,14 @@ namespace EnumProgram
             try
             {
                 Console.Write("Enter the current day of the week: ");
-                weekDays inp = (weekDays)Convert.ToInt32(Console.ReadLine());
+                string inp = Console.ReadLine();
+                weekDays days = (weekDays)Enum.Parse(typeof(weekDays), inp);
 
                 Console.WriteLine("the current day is " + inp);
+                Console.ReadLine();
 
             }
-            catch
+            catch(ArgumentException)
             {
                 Console.WriteLine("please enter an actual day of the week!");
                 Console.ReadLine();
