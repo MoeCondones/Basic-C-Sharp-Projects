@@ -15,6 +15,7 @@ namespace EnumProgram
                 Console.Write("Enter the current day of the week: ");
                 weekDays inp = (weekDays)Convert.ToInt32(Console.ReadLine());
 
+                Console.WriteLine("the current day is " + inp);
 
             }
             catch
