@@ -14,21 +14,21 @@ namespace EnumProgram
             {
                 Console.Write("Enter the current day of the week: ");
                 string inp = Console.ReadLine();
-                weekDays days = (weekDays)Enum.Parse(typeof(weekDays), inp);
+                WeekDays days = (WeekDays)Enum.Parse(typeof(WeekDays), inp);
 
                 Console.WriteLine("the current day is " + inp);
                 Console.ReadLine();
 
             }
-            catch(ArgumentException)
+            catch(Exception)
             {
                 Console.WriteLine("please enter an actual day of the week!");
                 Console.ReadLine();
             }
         }
-        public enum weekDays
+        public enum WeekDays
         {
-            mondays,
+            monday,
             tuesday,
             wednesday,
             thursday,
