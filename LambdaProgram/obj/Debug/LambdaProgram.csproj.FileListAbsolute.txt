@@ -1,0 +1,7 @@
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\LambdaProgram\bin\Debug\LambdaProgram.exe.config
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\LambdaProgram\bin\Debug\LambdaProgram.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\LambdaProgram\bin\Debug\LambdaProgram.pdb
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\LambdaProgram\obj\Debug\LambdaProgram.csproj.AssemblyReference.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\LambdaProgram\obj\Debug\LambdaProgram.csproj.CoreCompileInputs.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\LambdaProgram\obj\Debug\LambdaProgram.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\LambdaProgram\obj\Debug\LambdaProgram.pdb
