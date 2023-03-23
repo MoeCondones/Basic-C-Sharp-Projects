@@ -1,0 +1,7 @@
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\StructProgram\bin\Debug\StructProgram.exe.config
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\StructProgram\bin\Debug\StructProgram.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\StructProgram\bin\Debug\StructProgram.pdb
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\StructProgram\obj\Debug\StructProgram.csproj.AssemblyReference.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\StructProgram\obj\Debug\StructProgram.csproj.CoreCompileInputs.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\StructProgram\obj\Debug\StructProgram.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\StructProgram\obj\Debug\StructProgram.pdb
