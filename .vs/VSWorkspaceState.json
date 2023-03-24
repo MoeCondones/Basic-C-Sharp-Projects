@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\BlackJack"
+    "\\BlackJack",
+    "\\LambdaProgram",
+    "\\StructProgram"
   ],
   "SelectedNode": "\\BlackJack\\Program.cs",
   "PreviewInSolutionExplorer": false

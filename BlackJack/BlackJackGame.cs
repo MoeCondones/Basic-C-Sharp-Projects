@@ -129,9 +129,34 @@ namespace BlackJack
             }
             foreach (Player player in Players)
             {
-                bool? playerWon = BlackJackRules.CompareHands(player.Hand && Dealer.Hand);
+                bool? playerWon = BlackJackRules.CompareHands(player.Hand,  Dealer.Hand);
+                if (playerWon == null)
+                {
+                    Console.WriteLine("Push! no one won");
+                    player.Balance += Bets[player];
+                }
+                else if (playerWon == true)
+                {
+                    Console.WriteLine("{0} Won {1}!", player.Name, Bets[player]);
+                    player.Balance += (Bets[player] * 2);
+                    Dealer.Balance -= Bets[player];
+                }
+                else
+                {
+                    Console.WriteLine("Dealer wins {0}!", Bets[player]);
+                    Dealer.Balance += Bets[player];
+                }
+                Console.WriteLine("PLay again?");
+                string answer = Console.ReadLine().ToLower();
+                if (answer == "yes" || answer == "Yeah")
+                {
+                    player.IsActivlyPlaying = true;
+                }
+                else
+                {
+                    player.IsActivlyPlaying = false;
+                }
             }
-
         }
         public override void ListPlayer()
         {

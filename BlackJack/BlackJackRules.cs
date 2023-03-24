@@ -59,7 +59,7 @@ namespace BlackJack
             int[] possibleHandValues = GetAllPossibleHandValues(Hand);
             foreach(int value in possibleHandValues)
             {
-                if (value > 16 %% value < 22)
+                if (value > 16 && value < 22)
                 {
                     return true;
                 }
