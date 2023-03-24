@@ -10,26 +10,28 @@ namespace BlackJack
     {
         static void Main(string[] args)
         {
-            Deck deck = new Deck();
+            Console.Write("Welcome to Moe's Casino, Lets start by telling me your name: ");
+            string playerName = Console.ReadLine();
+            Console.WriteLine("And how much money did you bring today?");
+            int bank = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Hello, {0}. Would you like to join a game of BlackJack?", playerName);
+            string answer = Console.ReadLine().ToLower();
+            if (answer == "yes" || answer == "yeah" || answer == "ya" || answer == "y")
+            {
+                Player player = new Player(playerName, bank);
+                Game game = new BlackJackGame();
+                game += player;
+                player.IsActivlyPlaying = true;
+                while (player.IsActivlyPlaying && player.Balance > 0)
+                {
+                    game.Play();
+                }
+                game -=player;
+                Console.WriteLine("Thank you for playing!");
+            }
+            Console.WriteLine("Feel free to look around the casino. bye for now.");
+            Console.Read();
 
-            //int count = deck.Cards.Count(x => x.Face == Face.Ace);
-
-            //List<Card> newList = deck.Cards.Where(x => x.Face == Face.King).ToList();
-
-            List<int> numberList = new List<int>() { 1, 2, 3, 23, 3, 12, 342, 13, 221, 32 };
-
-            int sum = numberList.Where(x => x > 10).Sum();
-
-            Console.WriteLine(sum);
-
-            //deck.Shuffle(3);
-
-            //foreach (Card card in deck.Cards)
-            //{
-            //    Console.WriteLine(card.Face + " of " + card.Suit);
-            //}
-            //Console.WriteLine(deck.Cards.Count);
-            Console.ReadLine();
         }
 
     }
