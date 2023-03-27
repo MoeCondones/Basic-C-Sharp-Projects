@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\StructProgram"
+    "\\BlackJack",
+    "\\FileIOProgram"
   ],
-  "SelectedNode": "\\CarInsuranceProgram",
+  "SelectedNode": "\\FileIOProgram\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
