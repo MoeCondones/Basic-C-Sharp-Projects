@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace BlackJack
 {
@@ -10,6 +11,7 @@ namespace BlackJack
     {
         static void Main(string[] args)
         {
+
             Console.Write("Welcome to Moe's Casino, Lets start by telling me your name: ");
             string playerName = Console.ReadLine();
             Console.WriteLine("And how much money did you bring today?");
@@ -26,7 +28,7 @@ namespace BlackJack
                 {
                     game.Play();
                 }
-                game -=player;
+                game -= player;
                 Console.WriteLine("Thank you for playing!");
             }
             Console.WriteLine("Feel free to look around the casino. bye for now.");

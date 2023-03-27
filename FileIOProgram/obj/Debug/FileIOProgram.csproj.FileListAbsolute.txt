@@ -1,0 +1,7 @@
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\FileIOProgram\bin\Debug\FileIOProgram.exe.config
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\FileIOProgram\bin\Debug\FileIOProgram.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\FileIOProgram\bin\Debug\FileIOProgram.pdb
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\FileIOProgram\obj\Debug\FileIOProgram.csproj.AssemblyReference.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\FileIOProgram\obj\Debug\FileIOProgram.csproj.CoreCompileInputs.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\FileIOProgram\obj\Debug\FileIOProgram.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\FileIOProgram\obj\Debug\FileIOProgram.pdb

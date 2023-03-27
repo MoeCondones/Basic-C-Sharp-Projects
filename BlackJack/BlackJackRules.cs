@@ -32,12 +32,12 @@ namespace BlackJack
             int value = Hand.Sum(x => _cardValues[x.Face]);
             result[0] = value;
             if (result.Length == 1) return result;
-            for (int i = 1; i < result.Length; i++) 
+            for (int i = 1; i < result.Length; i++)
             {
                 value += (i * 10);
                 result[i] = value;
             }
-
+            return result;
         }
 
         public static bool CheckForBlackJack(List<Card> Hand)
@@ -57,7 +57,7 @@ namespace BlackJack
         public static bool ShouldDealerStay(List<Card> Hand)
         {
             int[] possibleHandValues = GetAllPossibleHandValues(Hand);
-            foreach(int value in possibleHandValues)
+            foreach (int value in possibleHandValues)
             {
                 if (value > 16 && value < 22)
                 {

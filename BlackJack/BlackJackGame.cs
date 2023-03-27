@@ -20,9 +20,10 @@ namespace BlackJack
             Dealer.Hand = new List<Card>();
             Dealer.Stay = false;
             Dealer.Deck = new Deck();
+            Dealer.Deck.Shuffle();
             Console.WriteLine("Place your bet!");
 
-            foreach(Player player in Players)
+            foreach (Player player in Players)
             {
                 int bet = Convert.ToInt32(Console.ReadLine());
                 bool successfullyBet = player.Bet(bet);
@@ -35,7 +36,7 @@ namespace BlackJack
             for (int i = 0; i < 2; i++)
             {
                 Console.WriteLine("Dealing..");
-                foreach(Player player in Players)
+                foreach (Player player in Players)
                 {
                     Console.Write("{0}: ", player.Name);
                     Dealer.Deal(player.Hand);
@@ -58,10 +59,11 @@ namespace BlackJack
                     if (blackJack)
                     {
                         Console.WriteLine("Dealer has Blackjack! Everyone loses");
-                        foreach(KeyValuePair<Player, int > entry in Bets)
+                        foreach (KeyValuePair<Player, int> entry in Bets)
                         {
                             Dealer.Balance += entry.Value;
                         }
+                        return;
                     }
                 }
             }
@@ -76,7 +78,7 @@ namespace BlackJack
                     }
                     Console.WriteLine("\n\nHit or stay?");
                     string answer = Console.ReadLine().ToLower();
-                    if(answer == "stay")
+                    if (answer == "stay")
                     {
                         player.Stay = true;
                         break;
@@ -95,17 +97,19 @@ namespace BlackJack
                         if (answer == "yes" || answer == "yeah")
                         {
                             player.IsActivlyPlaying = true;
+                            return;
                         }
                         else
                         {
                             player.IsActivlyPlaying = false;
+                            return;
                         }
                     }
                 }
             }
             Dealer.isBusted = BlackJackRules.isBusted(Dealer.Hand);
             Dealer.Stay = BlackJackRules.ShouldDealerStay(Dealer.Hand);
-            while(!Dealer.Stay && !Dealer.isBusted)
+            while (!Dealer.Stay && !Dealer.isBusted)
             {
                 Console.WriteLine("Dealer is hitting...");
                 Dealer.Deal(Dealer.Hand);
@@ -119,7 +123,7 @@ namespace BlackJack
             if (Dealer.isBusted)
             {
                 Console.WriteLine("Dealer busted!");
-                foreach(KeyValuePair<Player, int> entry in Bets)
+                foreach (KeyValuePair<Player, int> entry in Bets)
                 {
                     Console.WriteLine("{0} Won {1}", entry.Key.Name, entry.Value);
                     Players.Where(x => x.Name == entry.Key.Name).First().Balance += (entry.Value * 2);
@@ -129,7 +133,7 @@ namespace BlackJack
             }
             foreach (Player player in Players)
             {
-                bool? playerWon = BlackJackRules.CompareHands(player.Hand,  Dealer.Hand);
+                bool? playerWon = BlackJackRules.CompareHands(player.Hand, Dealer.Hand);
                 if (playerWon == null)
                 {
                     Console.WriteLine("Push! no one won");
