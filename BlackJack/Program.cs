@@ -15,11 +15,19 @@ namespace BlackJack
         {
             Console.Write("Welcome to Moe's Casino, Lets start by telling me your name: ");
             string playerName = Console.ReadLine();
-            Console.WriteLine("And how much money did you bring today?");
-            int bank = Convert.ToInt32(Console.ReadLine());
+
+            bool validAnswer = false;
+            int bank = 0;
+            while (!validAnswer)
+            {
+                Console.WriteLine("And how much money did you bring today?");
+                validAnswer = int.TryParse(Console.ReadLine(), out bank);
+                if(!validAnswer) Console.WriteLine("Please enter digits only, no decimals");
+            }
+
             Console.WriteLine("Hello, {0}. Would you like to join a game of BlackJack?", playerName);
             string answer = Console.ReadLine().ToLower();
-            if (answer == "yes" || answer == "yeah" || answer == "ya" || answer == "y")
+            if (answer == "yes" || answer == "yeah" || answer == "ya" || answer == "ye"|| answer == "yeh")
             {
                 Player player = new Player(playerName, bank);
                 player.Id = Guid.NewGuid();
@@ -32,7 +40,23 @@ namespace BlackJack
                 player.IsActivlyPlaying = true;
                 while (player.IsActivlyPlaying && player.Balance > 0)
                 {
-                    game.Play();
+                    try
+                    {
+                        game.Play();
+                    }
+                    catch (ArgumentException)
+                    {
+                        Console.WriteLine("Something you typed was incorrect");
+                        Console.ReadLine();
+                        return;
+                    }
+                    catch (Exception)
+                    {
+                        Console.WriteLine("An error occured, please contact your system administrator");
+                        Console.ReadLine();
+                        return;
+                    }
+                    
                 }
                 game -= player;
                 Console.WriteLine("Thank you for playing!");
