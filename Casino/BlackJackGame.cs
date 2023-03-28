@@ -27,15 +27,15 @@ namespace Casino.BlackJack
             {
                 bool validAnswer = false;
                 int bet = 0;
-                while(!validAnswer)
+                while (!validAnswer)
                 {
                     Console.WriteLine("Place your bet!");
                     validAnswer = int.TryParse(Console.ReadLine(), out bet);
-                    if(!validAnswer) Console.WriteLine("please enter digits only, no decimals");
+                    if (!validAnswer) Console.WriteLine("please enter digits only, no decimals");
                 }
-                if(bet <= 0)
+                if (bet <= 0)
                 {
-                    throw new ArgumentException();
+                    throw new FraudException();
                 }
                 bool successfullyBet = player.Bet(bet);
                 if (!successfullyBet)

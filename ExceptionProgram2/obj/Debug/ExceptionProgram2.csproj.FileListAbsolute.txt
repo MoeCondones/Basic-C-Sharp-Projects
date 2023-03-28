@@ -1,0 +1,6 @@
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ExceptionProgram2\bin\Debug\ExceptionProgram2.exe.config
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ExceptionProgram2\bin\Debug\ExceptionProgram2.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ExceptionProgram2\bin\Debug\ExceptionProgram2.pdb
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ExceptionProgram2\obj\Debug\ExceptionProgram2.csproj.CoreCompileInputs.cache
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ExceptionProgram2\obj\Debug\ExceptionProgram2.exe
+C:\Users\Delegate\Desktop\New folder\Basic-C-Sharp-Projects\ExceptionProgram2\obj\Debug\ExceptionProgram2.pdb

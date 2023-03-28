@@ -22,12 +22,12 @@ namespace BlackJack
             {
                 Console.WriteLine("And how much money did you bring today?");
                 validAnswer = int.TryParse(Console.ReadLine(), out bank);
-                if(!validAnswer) Console.WriteLine("Please enter digits only, no decimals");
+                if (!validAnswer) Console.WriteLine("Please enter digits only, no decimals");
             }
 
             Console.WriteLine("Hello, {0}. Would you like to join a game of BlackJack?", playerName);
             string answer = Console.ReadLine().ToLower();
-            if (answer == "yes" || answer == "yeah" || answer == "ya" || answer == "ye"|| answer == "yeh")
+            if (answer == "yes" || answer == "yeah" || answer == "ya" || answer == "ye" || answer == "yeh")
             {
                 Player player = new Player(playerName, bank);
                 player.Id = Guid.NewGuid();
@@ -44,9 +44,9 @@ namespace BlackJack
                     {
                         game.Play();
                     }
-                    catch (ArgumentException)
+                    catch (FraudException)
                     {
-                        Console.WriteLine("Something you typed was incorrect");
+                        Console.WriteLine("Security! kick this person out.");
                         Console.ReadLine();
                         return;
                     }
@@ -56,7 +56,7 @@ namespace BlackJack
                         Console.ReadLine();
                         return;
                     }
-                    
+
                 }
                 game -= player;
                 Console.WriteLine("Thank you for playing!");

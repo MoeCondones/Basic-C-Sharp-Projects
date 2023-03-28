@@ -36,6 +36,8 @@ namespace ExceptionProgram
             {
                 Console.WriteLine(en.Message);
             }
+
+
             Console.ReadLine();
         }
     }
