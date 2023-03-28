@@ -10,6 +10,11 @@
       "taskLabel": "task-Card",
       "appliesTo": "BlackJack/Card.cs",
       "type": "launch"
+    },
+    {
+      "taskLabel": "task-BlackJack",
+      "appliesTo": "BlackJack/",
+      "type": "launch"
     }
   ]
 }
