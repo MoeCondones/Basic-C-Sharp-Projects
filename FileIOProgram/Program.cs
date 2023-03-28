@@ -24,7 +24,29 @@ namespace FileIOProgram
 
             DateTime dateTime = DateTime.Now.AddHours(inp);
             Console.WriteLine("in " + inp + " hours the time will be " + dateTime);
+
+            const int number = 2000;
+            var str = "first var";
+            
+            Chainedcstruct chainedcstruct = new Chainedcstruct();
+            chainedcstruct.myMeth("adam", 20);
+
             Console.ReadLine();
+        }
+        public class Chainedcstruct
+        {
+            public Chainedcstruct(): this(10)
+            {
+
+            }
+            public Chainedcstruct(int Age)
+            {
+
+            }
+            public void myMeth(string name, int age)
+            {
+                Console.WriteLine("name: "+name+ ", Age:"+age);
+            }
         }
     }
 }

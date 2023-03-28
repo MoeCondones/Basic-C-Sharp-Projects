@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\BlackJack",
-    "\\BlackJack\\obj\\Debug\\TempPE",
     "\\Casino"
   ],
-  "SelectedNode": "\\BlackJack\\Program.cs",
+  "SelectedNode": "\\Casino\\Casino.csproj",
   "PreviewInSolutionExplorer": false
 }

@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using Casino;
+using Casino.BlackJack;
 
 namespace BlackJack
 {
@@ -21,6 +22,11 @@ namespace BlackJack
             if (answer == "yes" || answer == "yeah" || answer == "ya" || answer == "y")
             {
                 Player player = new Player(playerName, bank);
+                player.Id = Guid.NewGuid();
+                using (StreamWriter file = new StreamWriter(@"C:\Users\Delegate\Desktop\text.txt", true))
+                {
+                    file.WriteLine(player.Id);
+                }
                 Game game = new BlackJackGame();
                 game += player;
                 player.IsActivlyPlaying = true;
