@@ -33,9 +33,9 @@ namespace Casino.BlackJack
                     validAnswer = int.TryParse(Console.ReadLine(), out bet);
                     if (!validAnswer) Console.WriteLine("please enter digits only, no decimals");
                 }
-                if (bet <= 0)
+                if (bet < 0)
                 {
-                    throw new FraudException();
+                    throw new FraudException("Security! Kick this person out.");
                 }
                 bool successfullyBet = player.Bet(bet);
                 if (!successfullyBet)
